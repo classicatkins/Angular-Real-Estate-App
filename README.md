@@ -9,6 +9,7 @@ This Angular Real Estate Application allows users to explore real estate listing
 - **Detailed Property Views**: Clicking on a property listing displays detailed information about the real estate using routing.
 - **Inquiry Form**: Users can fill out a form to inquire about properties, which is submitted asynchronously.
 ![App Form Function View](src/assets/home-app-form.png)
+- **Chat Service**: Manages real-time communication between users. Messages are sent and received through a central service, which maintains a message history accessible to all participants. The service uses observables to update message lists asynchronously as new messages arrive.
 
 ## Technology Stack
 
