@@ -5,8 +5,10 @@ This Angular Real Estate Application allows users to explore real estate listing
 ## Features
 
 - **Property Search**: Users can search for properties by city.
+![App Search Function View](src/assets/home-app-search.png)
 - **Detailed Property Views**: Clicking on a property listing displays detailed information about the real estate using routing.
 - **Inquiry Form**: Users can fill out a form to inquire about properties, which is submitted asynchronously.
+![App Form Function View](src/assets/home-app-form.png)
 
 ## Technology Stack
 
@@ -57,7 +59,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-<<<<<<< HEAD
-=======
-
->>>>>>> 5b151595 (images)
