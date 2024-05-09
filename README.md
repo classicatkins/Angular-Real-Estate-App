@@ -1,18 +1,43 @@
 # angular-homes-v17
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
+This Angular Real Estate Application allows users to explore real estate listings similar to platforms like Zillow. Users can search for properties by city, view detailed information about each listing, and submit inquiries directly through the application. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Property Search**: Users can search for properties by city.
+- **Detailed Property Views**: Clicking on a property listing displays detailed information about the real estate using routing.
+- **Inquiry Form**: Users can fill out a form to inquire about properties, which is submitted asynchronously.
 
-## Code scaffolding
+## Technology Stack
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular**: Used for building the front-end SPA (Single Page Application).
+- **JSON-server**: Utilizes a local web server to simulate a real back-end for development purposes.
+- **Asynchronous Services**: Angular services are used to handle asynchronous HTTP requests to retrieve data from the JSON-server.
 
-## Build
+## Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+What things you need to install the software and how to install them:
+
+```bash
+npm install -g @angular/cli
+npm install -g json-server
+
+1. Clone the repository:
+git clone https://github.com/your-username/angular-real-estate-app.git
+2. install dependencies:
+npm install
+3. Start the JSON-server:
+json-server --watch db.json
+4. Serve the Angular app:
+ng serve
+
+Usage
+To use the app, navigate to the home page and begin searching for properties by city. Select a property to view more details and use the form to submit an inquiry.
+
 
 ## Running unit tests
 
