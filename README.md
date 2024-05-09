@@ -25,17 +25,26 @@ What things you need to install the software and how to install them:
 ```bash
 npm install -g @angular/cli
 npm install -g json-server
+```bash
 
 1. Clone the repository:
+```bash
 git clone https://github.com/your-username/angular-real-estate-app.git
+```bash
 2. install dependencies:
+```bash
 npm install
+```bash
 3. Start the JSON-server:
+```bash
 json-server --watch db.json
+```bash
 4. Serve the Angular app:
+```bash
 ng serve
+```bash
 
-Usage
+## Usage
 To use the app, navigate to the home page and begin searching for properties by city. Select a property to view more details and use the form to submit an inquiry.
 
 
