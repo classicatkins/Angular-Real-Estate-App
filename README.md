@@ -1,4 +1,4 @@
-# angular-homes-v17
+# Angular-Real-Estate-App
 
 This Angular Real Estate Application allows users to explore real estate listings similar to platforms like Zillow. Users can search for properties by city, view detailed information about each listing, and submit inquiries directly through the application. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
 
