@@ -6,8 +6,10 @@
  * found in the LICENSE file at https://angular.dev/license
  */
 
-import {ApplicationConfig} from '@angular/core';
+import { ApplicationConfig, importProvidersFrom } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 
 export const appConfig: ApplicationConfig = {
-  providers: [],
+  providers: [importProvidersFrom(TranslateModule.forRoot())],
 };
+

@@ -16,7 +16,10 @@
     "@angular/forms": "^17.3.0-rc",
     "@angular/platform-browser": "^17.3.0-rc",
     "@angular/router": "^17.3.0-rc",
+    "@ngx-translate/core": "^15.0.0",
     "rxjs": "~7.8.0",
+    "stream-chat": "^8.31.0",
+    "stream-chat-angular": "^4.66.5",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.0"
   },

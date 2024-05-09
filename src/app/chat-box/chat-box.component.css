@@ -1,0 +1,34 @@
+/* chat-box.component.css */
+.chat-box {
+    position: fixed;
+    bottom: 0;
+    right: 30px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: none; /* Initially hidden */
+  }
+  
+  .chat-header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .chat-content {
+    height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+    list-style: none;
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  
